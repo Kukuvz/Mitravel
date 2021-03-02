@@ -45,7 +45,7 @@
 
 .slide-title {
 	font-weight: 700;
-	font-style: 28px;
+	font-size: 28px;
 	color: var(--white-color);
 	position: relative;
 	z-index: 5;
@@ -55,7 +55,7 @@
 	transform: translateY(200px);
 }
 
-.swiper-slide-active .slide-title{
+.swiper-slide-active .slide-title {
 	transition: transform 0.3s;
 	transform: translateY(0);
 }
@@ -89,19 +89,19 @@
 }
 
 .slide-4 {
-	background-image: url("/img/videos-slider1.jpg");
+	background-image: url("/img/videos-slider3.jpg");
 }
 
 .slide-play {
 	position: absolute;
-	left: 48px;
-	top: 40px;
-	width: 112px;
-	height: 112px;
+	left: 38px;
+	top: 30px;
+	width: 90px;
+	height: 90px;
 	background-image: url("/img/svg/video-play.svg");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .swiper-slide video {
